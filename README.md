@@ -9,6 +9,7 @@ git clone https://github.com/tongueroo/demo-rails
 cd demo-rails
 cp config/database{.example,}.yml
 # edit config/database.yml with the desired database endpoint
+bundle
 rails s # start server
 ```
 
