@@ -8,7 +8,7 @@ Simple demo rails app. It has a demo controller that shows successful access to 
 git clone https://github.com/tongueroo/demo-rails
 cd demo-rails
 cp config/database{.example,}.yml
-# edit config/database.yml with the endpoint
+# edit config/database.yml with the desired database endpoint
 rails s # start server
 ```
 
