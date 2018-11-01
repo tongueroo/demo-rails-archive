@@ -22,3 +22,4 @@ Here's the relevant code:
 
 * [app/controllers/demo_controller.rb](app/controllers/demo_controller.rb)
 * [app/views/demo/index.html.erb](app/views/demo/index.html.erb)
+
