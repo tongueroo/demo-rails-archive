@@ -1,8 +1,17 @@
-# PostgreSQL. Versions 9.1 and up are supported.
+# MySQL. Versions 5.1.10 and up are supported.
+#
+# Install the MySQL driver
+#   gem install mysql2
+#
+# Ensure the MySQL gem is defined in your Gemfile
+#   gem 'mysql2'
+#
+# And be sure to use new-style password hashing:
+#   https://dev.mysql.com/doc/refman/5.7/en/password-hashing.html
 #
 default: &default
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+  encoding: utf8
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -10,7 +19,7 @@ default: &default
 development:
   <<: *default
   database: <%= ENV['DB_NAME'] || 'demo_dev' %>
-  username: <%= ENV['DB_USER'] || ENV['USER'] %>
+  username: <%= ENV['DB_USER'] || 'root' %>
   password: <%= ENV['DB_PASS'] %>
   host: <%= ENV['DB_HOST'] || 'localhost' %>
   port: 5432
