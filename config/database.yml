@@ -9,7 +9,7 @@ default: &default
 
 development:
   <<: *default
-  database: <%= ENV['DB_NAME'] || 'demo' %>
+  database: <%= ENV['DB_NAME'] || 'demo_dev' %>
   username: <%= ENV['DB_USER'] || ENV['USER'] %>
   password: <%= ENV['DB_PASS'] %>
   host: <%= ENV['DB_HOST'] || 'localhost' %>
@@ -40,6 +40,6 @@ test:
 #
 production:
   <<: *default
-  database: demo_production
+  database: demo
   username: demo
   password: <%= ENV['DEMO_DATABASE_PASSWORD'] %>
