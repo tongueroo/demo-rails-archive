@@ -18,4 +18,4 @@
 
 .byebug_history
 
-.jets/app/.env.*
+.jets/app/.env*
