@@ -19,3 +19,5 @@
 .byebug_history
 
 .jets/app/.env*
+.jets/project/.env*
+yarn.lock
