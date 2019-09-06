@@ -29,8 +29,8 @@ To deploy this Rails app to AWS Lambda you can use [Jets Afterburner](http://rub
 
     cd demo-rails
     gem install jets # outside of Gemfile
-    mkdir -p .jets/app
-    vim .jets/app/.env # add your env variables
+    mkdir -p .jets/project
+    vim .jets/project/.env # add your env variables
     jets deploy
 
 
