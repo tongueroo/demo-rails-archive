@@ -1,5 +1,7 @@
 # README
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 Simple demo rails app. It has a demo controller that shows successful access to the database.
 
 ## Rails Setup
