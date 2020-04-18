@@ -13,7 +13,7 @@ gem "mysql2", "~> 0.5.2"
 # Use Puma as the app server
 # gem 'puma', '~> 3.7'
 # lambda puma openssl error https://gist.github.com/tongueroo/09d358fd3bd556be5dce3fe68cf46b40
-gem 'puma', '= 3.12.0'
+gem 'puma', '3.12.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
